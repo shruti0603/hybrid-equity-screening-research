@@ -1,0 +1,27 @@
+PASS [4:1 forward split (2019-06-03)] round trip: to_as_traded(adjusted Close) recovers the true as-traded price
+PASS [4:1 forward split (2019-06-03)] corrected gap equals the no-split world at every month (36 months) - max |diff| = 0.00e+00
+PASS [4:1 forward split (2019-06-03)] test is sensitive: the AS-CACHED path overstates (1+gap) by the split factor before the first split - expected factor 4, observed 4
+PASS [4:1 forward split (2019-06-03)] returns, momentum and health are identical between as-cached and corrected runs
+PASS [4:1 forward split (2019-06-03)] non-split firms' valuation gaps are unchanged by the correction
+PASS [4:1 forward split (2019-06-03)] data-driven gate: corrected series jumps by the split ratio, cached series does not
+PASS [spin-off-style factor 1.324 (2018-05-15)] round trip: to_as_traded(adjusted Close) recovers the true as-traded price
+PASS [spin-off-style factor 1.324 (2018-05-15)] corrected gap equals the no-split world at every month (36 months) - max |diff| = 1.42e-14
+PASS [spin-off-style factor 1.324 (2018-05-15)] test is sensitive: the AS-CACHED path overstates (1+gap) by the split factor before the first split - expected factor 1.324, observed 1.324
+PASS [spin-off-style factor 1.324 (2018-05-15)] returns, momentum and health are identical between as-cached and corrected runs
+PASS [spin-off-style factor 1.324 (2018-05-15)] non-split firms' valuation gaps are unchanged by the correction
+PASS [spin-off-style factor 1.324 (2018-05-15)] data-driven gate: corrected series jumps by the split ratio, cached series does not
+PASS [1:8 reverse split (2020-09-01)] round trip: to_as_traded(adjusted Close) recovers the true as-traded price
+PASS [1:8 reverse split (2020-09-01)] corrected gap equals the no-split world at every month (36 months) - max |diff| = 0.00e+00
+PASS [1:8 reverse split (2020-09-01)] test is sensitive: the AS-CACHED path overstates (1+gap) by the split factor before the first split - expected factor 0.125, observed 0.125
+PASS [1:8 reverse split (2020-09-01)] returns, momentum and health are identical between as-cached and corrected runs
+PASS [1:8 reverse split (2020-09-01)] non-split firms' valuation gaps are unchanged by the correction
+PASS [1:8 reverse split (2020-09-01)] data-driven gate: corrected series jumps by the split ratio, cached series does not
+PASS [two splits 2:1 (2018-03-01) and 3:1 (2020-04-01)] round trip: to_as_traded(adjusted Close) recovers the true as-traded price
+PASS [two splits 2:1 (2018-03-01) and 3:1 (2020-04-01)] corrected gap equals the no-split world at every month (36 months) - max |diff| = 1.42e-14
+PASS [two splits 2:1 (2018-03-01) and 3:1 (2020-04-01)] test is sensitive: the AS-CACHED path overstates (1+gap) by the split factor before the first split - expected factor 6, observed 6
+PASS [two splits 2:1 (2018-03-01) and 3:1 (2020-04-01)] returns, momentum and health are identical between as-cached and corrected runs
+PASS [two splits 2:1 (2018-03-01) and 3:1 (2020-04-01)] non-split firms' valuation gaps are unchanged by the correction
+PASS [two splits 2:1 (2018-03-01) and 3:1 (2020-04-01)] data-driven gate: corrected series jumps by the split ratio, cached series does not
+PASS [split before the sample] no double counting: corrected gap equals the no-split world
+
+25 of 25 passed

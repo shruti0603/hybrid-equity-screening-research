@@ -1,0 +1,17 @@
+ticker,ex_date,ratio,jump,looks
+AAPL,2014-06-09,7.0,0.984,adjusted
+AAPL,2020-08-31,4.0,0.967,adjusted
+AMZN,2022-06-06,20.0,0.98,adjusted
+CMCSA,2017-02-21,2.0,0.994,adjusted
+GE,2021-08-02,0.125,1.03,adjusted
+GOOGL,2014-04-03,1.998,0.994,adjusted
+GOOGL,2022-07-18,20.0,1.025,adjusted
+NFLX,2015-07-15,7.0,1.023,adjusted
+NKE,2015-12-24,2.0,1.019,adjusted
+NVDA,2021-07-20,4.0,1.009,adjusted
+SBUX,2015-04-09,2.0,0.993,adjusted
+T,2022-04-11,1.324,0.929,adjusted
+TSLA,2020-08-31,5.0,0.888,adjusted
+TSLA,2022-08-25,3.0,1.003,adjusted
+V,2015-03-19,4.0,1.002,adjusted
+WMT,2024-02-26,3.0,0.982,adjusted

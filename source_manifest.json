@@ -1,0 +1,9 @@
+{
+  "dataset": "sabareesh88/FNSPID_external",
+  "shards": 13,
+  "source_revision": "main (unpinned; verify provenance)",
+  "max_articles_per_ticker_month": 30,
+  "coverage_gate_months": 66,
+  "timestamp_note": "Date field treated as publication timestamp; verify semantics and timezone before claiming PIT",
+  "downloaded_full_dataset": false
+}

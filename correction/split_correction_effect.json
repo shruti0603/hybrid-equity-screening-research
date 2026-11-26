@@ -1,0 +1,33 @@
+{
+ "panels_identical_H_S_Sr_fwd_mom": {
+  "H": true,
+  "S": true,
+  "Sr": true,
+  "fwd": true,
+  "mom": true
+ },
+ "V_availability_identical": true,
+ "valuation_firm_months": 2273,
+ "firm_months_changed": 365,
+ "share_changed": 0.16058073031236253,
+ "firms_changed": [
+  "AAPL",
+  "AMZN",
+  "HON",
+  "IBM",
+  "MRK",
+  "NKE",
+  "PFE",
+  "T",
+  "TSLA",
+  "WMT"
+ ],
+ "median_gap_changed_control": 162.24976386578555,
+ "median_gap_changed_corrected": -17.132223911621935,
+ "V_pinned_at_100_changed_control": 0.8027397260273973,
+ "V_pinned_at_100_changed_corrected": 0.3863013698630137,
+ "monthly_spearman_V_control_vs_corrected_median": 0.8425547495914718,
+ "monthly_spearman_V_min": 0.30562665039721165,
+ "months_positive_median_gap_control": 22,
+ "months_positive_median_gap_corrected": 0
+}

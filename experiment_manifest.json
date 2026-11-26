@@ -1,0 +1,8 @@
+{
+  "full_hybrid_months_ge10": 19,
+  "finbert_unique_headlines": 33443,
+  "news_selection_cap_per_ticker_month": 30,
+  "survivorship_bias": "50 currently selected firms",
+  "source": "sabareesh88/FNSPID_external",
+  "methodology_warning": "Dataset coverage, timestamp semantics, valuation and survivor selection require journal-level validation"
+}

@@ -1,0 +1,17 @@
+ticker,ex_date,ratio,jump,looks
+AAPL,2014-06-09,7.0,6.89,as-traded
+AAPL,2020-08-31,4.0,3.869,as-traded
+AMZN,2022-06-06,20.0,19.609,as-traded
+CMCSA,2017-02-21,2.0,1.988,as-traded
+GE,2021-08-02,0.125,0.129,as-traded
+GOOGL,2014-04-03,1.998,1.986,as-traded
+GOOGL,2022-07-18,20.0,20.504,as-traded
+NFLX,2015-07-15,7.0,7.16,as-traded
+NKE,2015-12-24,2.0,2.037,as-traded
+NVDA,2021-07-20,4.0,4.036,as-traded
+SBUX,2015-04-09,2.0,1.986,as-traded
+T,2022-04-11,1.324,1.23,as-traded
+TSLA,2020-08-31,5.0,4.442,as-traded
+TSLA,2022-08-25,3.0,3.01,as-traded
+V,2015-03-19,4.0,4.006,as-traded
+WMT,2024-02-26,3.0,2.946,as-traded
